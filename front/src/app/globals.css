@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-zenitha: "Zenita", serif;
+}
+
+@font-face {
+  font-family: "Zenita";
+  src: url("/assets/fonts/ZenithaClassic_PERSONAL_USE_ONLY.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
