@@ -1,4 +1,7 @@
+
+
 export function AreaCard({nombre,descripcion}){
+
     return (
        <div className="w-80 h-46 bg-white border border-gray-200 rounded-lg p-5 
        shadow-sm hover:shadow-md 
