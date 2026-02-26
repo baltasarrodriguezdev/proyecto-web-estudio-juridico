@@ -6,9 +6,9 @@ export default function Contacto() {
     <section className="w-full bg-[#0F1E2E] py-6 pb-20">
       <div className="w-full mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col justify-center items-center my-5 text-center">
-          <h2 className="font-serif text-3xl tracking-wide text-[#93863f] sm:text-5xl">
-            Contacto
-          </h2>
+          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl tracking-tight leading-tight text-[#93863f]">
+  Contacto
+</h2>
           <p className="mt-4 max-w-md leading-6 text-[#ffffff]/80 font-serif">
             Estamos a su disposición para atender cualquier consulta legal.
             Contáctenos y nuestro equipo le responderá a la brevedad.

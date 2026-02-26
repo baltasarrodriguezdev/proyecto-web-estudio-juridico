@@ -3,9 +3,9 @@ export default function Profesionals({profesionales}){
         <section className="w-full py-16">
             <div className="w-full">
                 <div className="flex flex-col px-6 justify-center items-center my-5 text-center">
-                    <h2 className="font-serif text-3xl tracking-wide text-[#0F1E2E] sm:text-5xl">
-                        Nuestros Profesionales
-                    </h2>
+                    <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl tracking-tight leading-tight text-[#0F1E2E]">
+  Nuestros Profesionales
+</h2>
                     <p className="mt-4 max-w-md  leading-6 text-[#0F1E2E]/80 font-serif">
                     Ofrecemos servicios especializados en múltiples áreas del derecho para cubrir todas sus necesidades legales.
                     </p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative w-full min-h-screen bg-[url('/assets/img/fondo.png')] bg-cover bg-center">
@@ -14,15 +15,21 @@ export default function Hero() {
         </p>
 
         <div className="mt-7 flex flex-col gap-3 w-full max-w-sm">
-          <button
-            className="
-              w-full rounded-md px-5 py-3 font-serif text-base
-              bg-[#ffd700]  text-[#1b1b1b] shadow-md shadow-black/30">
-            Contactanos
-          </button>
-          <button className=" w-full rounded-md px-5 py-3 font-serif text-base border border-white/70 text-white bg-white/5 backdrop-blur-[2px]">
-            Conocer Más
-          </button>
+          <Link href="/contacto" className="w-full">
+  <button
+    className="w-full rounded-md px-5 py-3 font-serif text-base
+    bg-[#ffd700] text-[#1b1b1b] shadow-md shadow-black/30">
+    Contactanos
+  </button>
+</Link>
+
+<Link href="/study" className="w-full">
+  <button
+    className="w-full rounded-md px-5 py-3 font-serif text-base
+    border border-white/70 text-white bg-white/5 backdrop-blur-[2px]">
+    Conocer Más
+  </button>
+</Link>
         </div>
       </div>
     </section>
