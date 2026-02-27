@@ -7,8 +7,8 @@ export default function Contacto() {
       <div className="w-full mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col justify-center items-center my-5 text-center">
           <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl tracking-tight leading-tight text-[#93863f]">
-  Contacto
-</h2>
+            Contact
+            </h2>
           <p className="mt-4 max-w-md leading-6 text-[#ffffff]/80 font-serif">
             Estamos a su disposición para atender cualquier consulta legal.
             Contáctenos y nuestro equipo le responderá a la brevedad.
@@ -17,7 +17,7 @@ export default function Contacto() {
 
         <div>
           <form
-            action="#"
+            action="https://proyecto-web-estudio-juridico.onrender.com/api/contacto"
             method="POST"
             className="
               mx-auto mt-10
@@ -36,7 +36,9 @@ export default function Contacto() {
                 </label>
                 <div className="mt-2">
                   <input
+                    required
                     type="text"
+                    name="nombre"
                     className="block w-full rounded-md bg-[#57545451] px-5 py-2.5 text-amber-50 border border-transparent outline-none focus:border-[#F5C518] focus:ring-2 focus:ring-[#F5C518]/30 transition-all duration-150"
                   />
                 </div>
@@ -48,6 +50,8 @@ export default function Contacto() {
                 </label>
                 <div className="mt-2">
                   <input
+                    required
+                    name="email"
                     type="email"
                     className="block w-full rounded-md bg-[#57545451] px-5 py-2.5 text-amber-50 border border-transparent outline-none focus:border-[#F5C518] focus:ring-2 focus:ring-[#F5C518]/30 transition-all duration-150"
                   />
@@ -62,6 +66,8 @@ export default function Contacto() {
                 </label>
                 <div className="mt-2">
                   <input
+                    required
+                    name="telefono"
                     type="tel"
                     className="block w-full rounded-md bg-[#57545451] px-5 py-2.5 text-amber-50 border border-transparent outline-none focus:border-[#F5C518] focus:ring-2 focus:ring-[#F5C518]/30 transition-all duration-150"
                   />
@@ -74,6 +80,8 @@ export default function Contacto() {
                 </label>
                 <div className="mt-2">
                   <input
+                    required
+                    name="asunto"
                     type="text"
                     className="block w-full rounded-md bg-[#57545451] px-5 py-2.5 text-amber-50 border border-transparent outline-none focus:border-[#F5C518] focus:ring-2 focus:ring-[#F5C518]/30 transition-all duration-150"
                   />
@@ -88,6 +96,7 @@ export default function Contacto() {
                 </label>
                 <div className="mt-2">
                   <textarea
+                    name="mensaje"
                     className="block w-full rounded-md bg-[#57545451] px-5 py-6 text-amber-50 border border-transparent outline-none focus:border-[#F5C518] focus:ring-2 focus:ring-[#F5C518]/30 transition-all duration-150 resize-none"
                     rows={5}
                   ></textarea>
