@@ -26,7 +26,7 @@ router.post('/contacto', async function (req,res) {
     };
 
     await contactoModel.postContact(consulta);
-    res.redirect("https://proyecto-web-estudio-juridico.vercel.app/study");
+    res.redirect("https://proyecto-web-estudio-juridico.vercel.app/gracias");
   } catch (error) {
   console.log("POST /api/contacto error:", error);
   return res.status(500).send("Error al enviar la consulta");
